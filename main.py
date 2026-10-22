@@ -86,7 +86,7 @@ def calc(s):
     return 'Error'
 
 
-print('Введите выражение для посчета, например: "2 + 3 & fact(4 - 1) / 2 * (1 - 5)")')
+print('Введите выражение для подсчета, например: "2 + 3 & fact(4 - 1) / 2 * (1 - 5)"')
 s = str(input())
 if check_brackets(s):
-    print('Ответ: ', calc(s))
+    print('Ответ:', calc(s))
